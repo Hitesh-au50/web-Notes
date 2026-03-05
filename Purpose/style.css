@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#resume{
+    margin: 0px auto;
+    width: 800px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+#first{
+    background-color: rgb(63, 63, 235);
+    width: 249px;
+    height: 700px;
+    border-right: 4px solid navy;
+    display: inline-block;
+    color: white;
+}
+/* #second{
+    background-color: rgb(249, 249, 250);
+    width: 69%;
+    height: 700px;
+    display: inline-block;
+    color: rgb(8, 8, 8);
+} */
+.image{
+    margin: 40px;
+    margin-top: 106px;
+    border: 3px solid black;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 6px;
+}
+h4{
+    margin: 91px;
+    margin-top: -26px;
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    margin:-58px 11px 32px 9px;
+    text-align: center;
+}

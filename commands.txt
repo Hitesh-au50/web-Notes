@@ -1,0 +1,141 @@
+git add .                                                  ("")-->DOUBLE COT
+git commit -m "messages"                                   ('')-->SINGLR COT
+git push origin <Branch Name>                              (``)-->BACK TICK
+                                                           (;)-->SEMI COLOUM
+
+git pull origin <Branch Name>
+
+
+
+
+prompt-sync:-
+
+
+CODE TO TAKE NUMBER:
+
+num=Number(require("prompt-sync")()());
+
+CODE TO TAKE STRING:
+num=require("prompt-sync")()();
+
+
+
+const prompt = require('prompt-sync')();
+const num = prompt('enter the num');
+
+
+
+let max = 0
+let min = -1
+
+
+
+
+FIND MIDDLE INDEX :-
+ 
+
+
+(lastIndex - firstIndex)/2
+
+
+
+
+primitive/core DS      |  derived DS
+                       |  a.) stack
+                       |  b.) queue
+                       |  c.) tree
+ARRAY=[     ]          |  d.) graph
+
+
+
+
+
+
+
+https://miro.com/app/board/uXjVPC-CuiM=/?share_link_id=170682286153
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="color big-img">
+            <img src="https://source.unsplash.com/random/?flowers&2" alt="">
+        </div>
+
+
+
+
+
+
+
+
+https://source.unsplash.com/random/?flowers&2
+
+
+
+
+
+
+
+
+
+// promise is an object that represent eventual completion of async operation.
+
+
+// promise are handle to async operation in javascript.
+
+
+
+
+
+https://ionic.io/ionicons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# MONGO_URI=mongodb+srv://hiteshverma3666:Hitesh123@cluster0.ews6yul.mongodb.net/tour_booking?retryWrites=true&w=majority
+
+

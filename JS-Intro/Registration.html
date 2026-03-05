@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registration Form</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="border container-sm w-25 bg-primary text-bg-light h-25 pt-3 pb-3 text-center text-white h2 mt-5"
+    >
+      Sign-Up Page
+    </div>
+    <div class="container-sm w-25 border">
+      <form method="post" action="/home">
+        <div class="form-group">
+          <label class="text-left" for="firstName">First Name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstName"
+            class="form-control mb-3"
+          />
+        </div>
+        <div class="form-group">
+          <label class="text-left" for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastName"
+            class="form-control mb-3"
+          />
+        </div>
+        <div class="form-group">
+          <label class="text-left" for="lastName">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="lastName"
+            class="form-control mb-3"
+          />
+        </div>
+        <div class="form-group">
+          <label class="text-left" for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control mb-3"
+          />
+        </div>
+        <div class="form-group">
+          <label class="text-left" for="password">Confirm Password</label>
+          <input
+            type="password"
+            name="confirmpassword"
+            id="password"
+            class="form-control mb-3"
+          />
+        </div>
+        <div class="form-group">
+          <div><label class="text-left" for="password">Comment</label></div>
+          <textarea
+            class="form-control mb-3"
+            placeholder=""
+            id="floatingTextarea"
+          ></textarea>
+        </div>
+        <input class="btn btn-primary mb-3" type="submit" value="Login" />
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
