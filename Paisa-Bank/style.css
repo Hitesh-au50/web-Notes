@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Libre+Baskerville&display=swap');
+body{
+    
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    
+font-family: 'Libre Baskerville', serif;
+   
+  }
+  .tag{
+    text-decoration:underline;
+   
+    color:#302b63;
+  }
+  .center-div{
+   
+    background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid green;
+    border-radius: 30px;
+    padding: 50px;
+    color: black;
+    text-align: center;
+ 
+    
+  }
+  .textbox-style{
+    padding: 4px 0;
+    border:2px solid black;
+    border-radius: 10px;
+  }
+  .margin-buttom-12{
+    margin-bottom: 12px;
+  }
+  #errMsg{
+    color:red;
+  }
+  button{
+    margin-top: 10px;
+    border:0;
+    border-radius: 40px;
+    font-size: 13pt;
+    padding: 5px 15px;
+    background-color:#302b63;
+    color:white;
+  }
+  button:hover{
+    background-color: green;
+    color:black;
+    border: 1px solid black;
+  }
+  .switch:hover{
+    color:blueviolet;
+  }
+  #register-portal,#portal,#depoist-portal,#withdraw-portal,#transfer-portal{
+    display: none;
+  }
+  h3,h4{
+    display: inline-block;
+  }
